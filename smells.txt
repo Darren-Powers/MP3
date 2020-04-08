@@ -1,0 +1,4 @@
+Question 1:
+This refactoring: Extract method
+We do this because there are duplicate expressions in two different classes
+
