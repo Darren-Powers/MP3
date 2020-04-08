@@ -2,3 +2,9 @@ Question 1:
 This refactoring: Extract method
 We do this because there are duplicate expressions in two different classes
 
+Question 2:
+
+Question 3:
+Code Smell: Feature Envy
+Refactoring: Move Method
+This appears to be feature envy, as both of the method calls within our new method are referencing the jenkins class.  By moving them, we put the feature into the class that 'wants' that feature.
