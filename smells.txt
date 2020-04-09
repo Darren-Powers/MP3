@@ -8,3 +8,8 @@ Question 3:
 Code Smell: Feature Envy
 Refactoring: Move Method
 This appears to be feature envy, as both of the method calls within our new method are referencing the jenkins class.  By moving them, we put the feature into the class that 'wants' that feature.
+
+Question 4:
+Because identical code repeats, the easiest way to fix this is to put the code into an inner for-loop.  The loop will repeat as long as the incrementer (starting at 0) is less than the capacity of the hex. Which, since this is unicode, the code specifies that capacity is 4 (hex.capacity() in this case returns 4).  Because there is a pre-existing break statement, we had to add a label (Breaker) to enable java to break the outer loop, instead of just our new inner loop.
+
+
