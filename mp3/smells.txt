@@ -12,4 +12,8 @@ This appears to be feature envy, as both of the method calls within our new meth
 Question 4:
 Because identical code repeats, the easiest way to fix this is to put the code into an inner for-loop.  The loop will repeat as long as the incrementer (starting at 0) is less than the capacity of the hex. Which, since this is unicode, the code specifies that capacity is 4 (hex.capacity() in this case returns 4).  Because there is a pre-existing break statement, we had to add a label (Breaker) to enable java to break the outer loop, instead of just our new inner loop.
 
+Question 5:
 
+Question 6:
+By analyzing output.xml, we found that there were several lines of code repeating in the RunParameterDefinitionTest.
+we used both extraction of local variables and extraction of methods to reduce the amound of repeated code needed to run the tests.  We also had to add a little bit of additional code (a series of if/else statements) to allow us to extract a method to get an appropriate integer value for the assertion.
