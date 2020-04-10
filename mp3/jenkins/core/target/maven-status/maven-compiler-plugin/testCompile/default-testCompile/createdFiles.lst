@@ -150,6 +150,7 @@ hudson/util/io/ReopenableRotatingFileOutputStreamTest.class
 hudson/util/XStream2Test.class
 hudson/util/XStream2Test$Point.class
 jenkins/model/lazy/AbstractLazyLoadRunMapTest$1$1.class
+jenkins/model/IdFromFilenameTest.class
 jenkins/model/lazy/FakeMapBuilder$1.class
 hudson/model/listeners/SCMListenerTest$1.class
 hudson/util/IteratorsTest.class
